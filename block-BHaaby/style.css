@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/* ol, ul {
+	list-style: ;
+} */
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    margin: 0;
+    line-height: 1.3;
+    background-color: #b8b894;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 100px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    background-color: rgb(255, 102, 0);
+}
+.home a{
+    text-decoration: none;
+    color: white;
+}
+.home li{
+    list-style-type: none;
+    padding-right: 55px;
+}
+.home{
+    justify-content: flex-start;
+}
+.start{
+    padding: 30px 0;
+
+}
+.ol li{
+    list-style-position: inside;
+    padding-bottom: 10px;
+}
+
+.ol{
+    width: 31%;
+    color: white;
+    height: 400px;
+    box-shadow: 6px 6px 6px 2px rgba(0,0,0,0.7);
+    background-color: rgb(35, 109, 119);
+}
+.one{
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.pad{
+    padding: 20px;
+}
+
+.shiftrt{
+    position: relative;
+    left: 30px;
+
+}
+.third{
+    list-style-type: none;
+}
+.section{
+    margin: 20px 0;
+}
+dt{
+    font-size: 35px;
+}
+dd{
+    line-height: 1.5;
+    margin-right: 20px;
+}
+.lorem{
+    font-size: 35px;
+}
+.footer{
+    background-color: rgb(41, 40, 40);
+    height: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
